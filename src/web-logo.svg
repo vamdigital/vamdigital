@@ -1,0 +1,11 @@
+<svg version="1.2" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" width="268px" height="80px" viewBox="0 0 268 80" xml:space="preserve">
+<g id="Layer_2">
+	<g>
+		<polygon fill="#222222" points="0,0 50,80 71,80 104.1,26.3 93.3,9.6 60.8,62.5 22.3,0 		"/>
+		<polygon fill="#222222" points="99,0 119.8,0 168.6,80 147.8,80 		"/>
+		<polygon fill="#222222" points="174,68.9 163.1,53 196.9,0 216.4,0 267.3,80 247.1,80 207.1,17.4 		"/>
+		<rect x="103.1" y="50" fill="#222222" width="15" height="14"/>
+	</g>
+</g>
+</svg>

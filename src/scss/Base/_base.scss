@@ -1,0 +1,167 @@
+html {
+  overflow: hidden;
+  overflow-y: scroll;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: $app-white;
+  width: 100%;
+  height: 100%;
+  color: $app-black;
+  font-family: $base-font-family;
+  font-weight: $base-font-weight;
+  line-height: $line-height-l-mobile;
+  @include remsize(font-size, $font-size-base-mobile);
+
+  @include breakpoint("medium") {
+    @include remsize(font-size, $font-size-base-desktop);
+    line-height: $line-height-l-desktop;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+hr {
+  background: $app-grey-2;
+  border: 0;
+  height: 1px;
+  margin: 20px 0;
+  width: 100%;
+
+  &.no-background {
+    background: transparent;
+  }
+}
+
+.row--spacing {
+  margin: 20px 0;
+
+  &-top {
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  &-bottom {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}
+
+.container {
+  margin: 0 15px;
+  max-width: 1100px;
+
+  @include breakpoint("small") {
+    margin: 0 30px;
+  }
+
+  @include breakpoint("large") {
+    margin: 0 auto;
+  }
+}
+
+section {
+  padding: 20px 0;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+  @include breakpoint("small") {
+    padding: 30px 0;
+  }
+
+  + section {
+    padding-top: 0;
+  }
+}
+
+main {
+  flex-grow: 1;
+}
+
+header, main, footer {
+  flex-shrink: 0;
+}
+
+.header__logo {
+  display: inline-block;
+  width: 60%;
+  padding-top: 0.5em;
+  vertical-align: middle;
+  img {
+    width: 40%;
+    @include breakpoint("small") {
+      width: 20%;
+    }
+  }
+}
+
+.header__button {
+  display: block;
+  float: right;
+  a {
+    margin: 0;
+    display: block;
+    width: 100%;
+    border: 2px solid $app-black;
+    border-radius: 30px;
+    padding: 8px 15px;
+    @include remsize(font-size, 16px);
+    color: $app-black;
+    line-height: 1;
+
+    &:active, &:hover, &:focus {
+      background: $app-black;
+      color: $app-white;
+    }
+  }
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1100px;
+}
+
+
+main {
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  .container {
+    max-width: 30em;
+
+    @include breakpoint("small") {
+      max-width: 40em;
+      width: 90%;
+    }
+  }
+  
+
+    h1 {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      @include remsize(font-size, 20px);
+      line-height: 1.4;
+        @include breakpoint("small") {
+        @include remsize(font-size, 30px);
+        line-height: 1.2;
+      }
+    }
+  }
+
+
+.footer__copyrights {
+  @include remsize(font-size, 14px);
+  text-align: center;
+  margin: 0;
+}
