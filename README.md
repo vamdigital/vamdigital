@@ -8,11 +8,11 @@ VAM Digital Limited is my company, we specialise in standard compliant web inter
 ### :computer: Technologies I have experience in
 |React| Redux | Redux Toolkit | Javascript ES6 |
 |-|-|-|-|
-| HTML5 | CSS3 | SASS | Styled Components |
+| <center>HTML5</center> | CSS3 | SASS | Styled Components |
 | CSS Modules| Monorepo|Lerna | Verdaccio |
 | Storybook | Jquery| Handlebars | Docker |
 | Sketch | Photoshop| Illustrator | Balsamiq Mockup |
-| MacOS | Windows 10| VSCode |
+| MacOS | Windows 10| VSCode | Git |
 
 :email: &nbsp; vamdigital@gmail.com
 
