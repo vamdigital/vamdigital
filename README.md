@@ -13,6 +13,7 @@ VAM Digital Limited is my company, we specialise in standard compliant web inter
 | Storybook | Jquery| Handlebars | Docker |
 | Sketch | Photoshop| Illustrator | Balsamiq Mockup |
 | MacOS | Windows 10| VSCode | Git |
+| Applepay |
 
 :email: &nbsp; vamdigital@gmail.com
 
